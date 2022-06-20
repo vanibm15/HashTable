@@ -35,6 +35,8 @@ public class MyMapNode <K,V> {
         public void setNext(MyMapNode<K, V> next) {
             this.next = (MyMapNode<K, V>) next;
         }
+
+
         @Override
         public String toString() {
             StringBuilder nodeString = new StringBuilder();
