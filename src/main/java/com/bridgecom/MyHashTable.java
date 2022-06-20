@@ -10,6 +10,7 @@ public class MyHashTable <K,V> {
             return (myNode == null) ? null : myNode.getValue();
         }
 
+
         public MyMapNode<K, V> searchNode(K word) {
             MyMapNode<K, V> currentNode = head;
             int position = 0;
